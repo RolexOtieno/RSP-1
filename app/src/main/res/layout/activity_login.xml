@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Login">
+
+    <TextView
+        android:text="@string/LOGIN"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+    <TextView
+        android:text="@string/enter_employee_id_number"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">k
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input"
+            android:hint="@string/Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="@string/LOGIN"
+        android:layout_margin="30dp"
+        android:layout_width="280px"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

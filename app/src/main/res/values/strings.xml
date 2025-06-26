@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplicationSplash</string>
+    <string name="enter_employee_id_number">Enter Employee ID Number</string>
+    <string name="Input">Input Id Number</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+</resources>
