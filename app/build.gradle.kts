@@ -42,6 +42,7 @@ android {
         includeInApk = true
         includeInBundle = true
     }
+    ndkVersion = ndkVersion
 }
 
 dependencies {
