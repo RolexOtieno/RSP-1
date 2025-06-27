@@ -6,4 +6,6 @@
     <string name="REGISTER">REGISTER</string>
     <string name="Email">Email</string>
     <string name="Password">Password</string>
+    <string name="pfms_sabi_logo">PFMS SABI Logo</string>
+    <string name="payments_anywhere_anytime">Payments Anywhere Anytime</string>
 </resources>
