@@ -122,7 +122,7 @@
         android:layout_width="115dp"
         android:layout_height="110dp"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="curve background"
         android:scaleType="fitXY"
         android:src="@drawable/eclipsecurve" />
@@ -132,7 +132,7 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="@string/pfms_sabi_logo"
         android:scaleType="fitCenter"
         android:src="@drawable/thetruckpfmslogo" />

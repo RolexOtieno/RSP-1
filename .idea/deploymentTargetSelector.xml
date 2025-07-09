@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-06-30T12:44:23.508263500Z">
+        <DropdownSelection timestamp="2025-07-09T06:33:04.278618400Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=RF8Y5020JVB" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\rolex\.android\avd\Pixel_5.avd" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -20,6 +20,17 @@
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=RZ8N92P9E1P" />
             </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="LoginActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-07-07T13:40:06.034982800Z">
+          <Target type="DEFAULT_BOOT">
+            <template>
+              <DeviceId pluginId="FirebaseDirectAccess" type="TEMPLATE" identifier="model_id=a15x/34" />
+            </template>
           </Target>
         </DropdownSelection>
         <DialogSelection />
